@@ -1,5 +1,5 @@
 {
-    "name": "florianv/swap-bundle",
+    "name": "serveriev/swap-bundle",
     "type": "symfony-bundle",
     "description": "Integrates the Swap library with Symfony",
     "keywords": ["money", "currency", "conversion", "rate", "exchange", "symfony", "bundle"],
@@ -14,7 +14,9 @@
     ],
     "require": {
         "symfony/framework-bundle": "~2.2|~3.0",
-        "florianv/swap": "~2.0"
+        "florianv/swap": "^3.0",
+        "php-http/message": "^1.4",
+        "php-http/guzzle6-adapter": "^1.1"
     },
     "require-dev": {
         "symfony/expression-language": "~2.4|~3.0"
